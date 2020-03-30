@@ -37,13 +37,25 @@ season_one = [
 item_number = 1
 total_price = 0
 
+# loops through list which contains five dictionaries
 for item in season_one:
 
+    """
+    for loop that runs through each dictionary displaying information on 
+    each line by line. also adds the list item number for each item. enumerate
+    is used to take advantage of the index to make such possible.
+    """
     for i, (k, v) in enumerate(item.items()):
 
+        """this makes sure that if the value is an integer, it turns into a 
+        string"""
         if v == isinstance(v, int):
             print(str(v))
 
+        """
+        if the index is zero, then the item number is placed in front. will 
+        only happen with the first index
+        """
         if i == 0:
             print(str(item_number) + ': ' + '\t' + k + ": " + str(v))
         elif i == 3:
@@ -51,10 +63,15 @@ for item in season_one:
         else:
             print('\t' + k + ": " + str(v))
 
+        """
+        if the key is Price, then that integer is added to the total price 
+        variable
+        """
         if k == 'Price':
             total_price += v
 
+    """for each item looped, the item number is increased by 1"""
     item_number += 1
 
-
+"""prints total price once added up"""
 print(total_price)
