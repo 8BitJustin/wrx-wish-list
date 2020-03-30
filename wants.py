@@ -24,14 +24,14 @@ season_one = [
      "Price": 40,
      "Website": "https://www.subispeed.com/2015-subaru-wrx/vinyl/emblems/wrx"
                 "-fa20dit-emblem-2015-wrx#.XoDydZllCUk"},
-    {"Description": "Raceseng Scepter Translucent Shift Knob - 2015+ WRX / "
-                    "STI / 2013+ BRZ",
+    {"Description": "OLM NB+R Rear Brake Light / F1 Style Reverse w/ PnP "
+                    "Adapter - 15+ WRX / STI ",
      "Distributor": "Subispeed",
-     "Price": 115,
+     "Price": 126,
      "Website":
-         "https://www.subispeed.com/2015-subaru-wrx/interior/shift-knobs"
-         "/raceseng-scepter-translucent-shift-knob-2015-wrx-sti-2013-ft86"
-         "#.XoDyzpllCUk"}
+         "https://www.subispeed.com/2015-subaru-wrx/lighting/tail-lights/olm"
+         "-nb-r-rear-brake-light-f1-style-reverse-w-pnp-adapter-15-wrx-sti"
+         "#.XoH6xJllCUk"}
 ]
 
 item_number = 1
